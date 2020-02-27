@@ -27,3 +27,15 @@ function listSongDetails(arr){
         console.log(val.name + ", by " + val.artist + " " + "(" + val.duration + ")" + ".");
     })
 }
+
+//test
+listSongDetails(songs);
+/*
+See You Again, by Wiz Khalifa featuring Charlie Puth (3:57).
+Bad Blood, by Taylor Swift featuring Kendrick Lamar (3:19).
+Cheerleader, by OMI (2:58).
+Can't Feel My Face, by The Weeknd (3:35).
+What Do You Mean?, by Justin Bieber (3:26).
+The Hills, by The Weeknd (4:04).
+Hello, by Adele (4:55).
+*/
