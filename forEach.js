@@ -45,3 +45,8 @@ Q3. Write a function called summerJamCount which takes in
 an array of songs and returns the number of songs which hit #1 on 
 the charts in June, July, or August.
 */
+
+function summerJamCount(arr){
+    let newArr = [];
+    return arr.forEach(function(obj){})
+}
