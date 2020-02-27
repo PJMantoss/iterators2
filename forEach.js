@@ -48,5 +48,10 @@ the charts in June, July, or August.
 
 function summerJamCount(arr){
     let newArr = [];
-    return arr.forEach(function(obj){})
+    arr.forEach(function(obj){
+        if([6,7,8].includes(obj.month)){
+            newArr.push(obj.month);
+        }
+    })
+    return newArr.length;
 }
