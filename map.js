@@ -10,3 +10,6 @@ function getDurations(arr){
         return val.duration;
     })
 }
+
+//test
+getDurations(songs);
