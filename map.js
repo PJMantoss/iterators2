@@ -25,3 +25,5 @@ function getDurations(arr){
         return timeSeconds * 60;
     })
 }
+//test
+getDurations(songs);
