@@ -4,11 +4,12 @@ Q1. Write a function called listNames which takes in an array of songs and conso
 */
 function listNames(arr){
     return arr.forEach(function(v){
-         console.log(v);
+         console.log(v.name);
     })
 }
+
 //test
-listNames(["Smooth", "Amazed", "Maria Maria", "Try Again"]);
+listNames(songs);
 /*
 Smooth
 Amazed
