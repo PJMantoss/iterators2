@@ -7,3 +7,11 @@ function listNames(arr){
          console.log(v);
     })
 }
+//test
+listNames(["Smooth", "Amazed", "Maria Maria", "Try Again"]);
+/*
+Smooth
+Amazed
+Maria Maria
+Try Again
+*/
