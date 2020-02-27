@@ -35,3 +35,15 @@ Q3. Write a function called getMainArtists which takes in an array of songs
  if there are featured artists, they should be ignored 
  (so only the artist to the left of "featuring" is kept.)
 */
+
+function getMainArtists(arr){
+    return arr.map(function(val){
+        if ((val.artist).includes("featuring")){
+            return null;
+        } else {
+            return val.artist;
+        }
+    })
+}
+
+getMainArtists(songs);
