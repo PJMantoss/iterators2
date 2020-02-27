@@ -13,3 +13,9 @@ function getDurations(arr){
 
 //test
 getDurations(songs);
+
+/*
+Q2. Write a function called getDurationInSeconds
+which takes in an array of songs and returns an array
+of each song's duration in seconds.
+*/
