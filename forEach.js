@@ -55,3 +55,6 @@ function summerJamCount(arr){
     })
     return newArr.length;
 }
+
+//test
+summerJamCount(songs); //47
