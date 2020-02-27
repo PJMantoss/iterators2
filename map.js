@@ -19,3 +19,9 @@ Q2. Write a function called getDurationInSeconds
 which takes in an array of songs and returns an array
 of each song's duration in seconds.
 */
+function getDurations(arr){
+    return arr.map(function(val){
+        let timeSeconds = parseFloat(val.duration);
+        return timeSeconds * 60;
+    })
+}
