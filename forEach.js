@@ -39,3 +39,9 @@ What Do You Mean?, by Justin Bieber (3:26).
 The Hills, by The Weeknd (4:04).
 Hello, by Adele (4:55).
 */
+
+/*
+Q3. Write a function called summerJamCount which takes in
+an array of songs and returns the number of songs which hit #1 on 
+the charts in June, July, or August.
+*/
