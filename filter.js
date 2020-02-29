@@ -15,3 +15,6 @@ function getBigHits(arr, key){
         }
     })
 }
+
+//test
+getBigHits(songs);
