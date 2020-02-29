@@ -37,13 +37,11 @@ Q3. Write a function called getMainArtists which takes in an array of songs
 */
 
 function getMainArtists(arr){
+    
     return arr.map(function(val){
-        if ((val.artist).includes("featuring")){
-            return null;
-        } else {
-            return val.artist;
-        }
-    })
-}
+        return val.artist.split("featuring")[0].trim();
+})
+};
 
+//test
 getMainArtists(songs);
