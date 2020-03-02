@@ -32,3 +32,6 @@ function getShortSongs(arr){
         }
     })
 }
+
+//test
+getShortSongs(songs);
