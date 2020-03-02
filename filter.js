@@ -26,9 +26,10 @@ of songs and returns an array of songs which are shorter than 3 minutes.
 
 function getShortSongs(arr){
     return arr.filter(function(val){
-        let shortSongs = parseFloat(val.duration);
-        shortSongs <= 3.0;
-        return val.name;
+        let shortSong = val.duration;
+        if(parseFloat(shortSong) < 3.0){
+            return val.name;
+        }
     })
 }
 
