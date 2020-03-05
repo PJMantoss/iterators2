@@ -35,3 +35,9 @@ function getShortSongs(arr){
 
 //test
 getShortSongs(songs);
+
+/*
+Q3. Write a function called getSongsByArtist 
+which takes in an array of songs and the name of an artist and
+ returns an array of songs by that artist.
+*/
