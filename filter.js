@@ -20,14 +20,14 @@ function getBigHits(arr){
 getBigHits(songs);
 
 /*
-Write a function called getShortSongs which takes an array
+Q2.Write a function called getShortSongs which takes an array
 of songs and returns an array of songs which are shorter than 3 minutes.
 */
 
 function getShortSongs(arr){
     return arr.filter(function(val){
-        let shortSong = val.duration;
-        if(parseFloat(shortSong) < 3.0){
+        let shortSong = parseFloat(val.duration);
+        if(shortSong < 3.0){
             return val.name;
         }
     })
