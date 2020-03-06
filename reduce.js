@@ -28,4 +28,5 @@ function getTotalDurationInSeconds(arr){
     }, 0)
 }
 
-getTotalDurationInSeconds(songs);
+//test
+getTotalDurationInSeconds(songs); //40080
