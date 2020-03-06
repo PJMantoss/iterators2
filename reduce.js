@@ -40,12 +40,18 @@ the values should be the number of songs by that artist in the orignal array.
 function getSongCountByArtist(arr){
     
     return arr.reduce(function(acc,val){
-        let artistSong = val.name;
-        let songNo = artistSong.length;
+        let artistName = val.artist,
+            artistSong = val.name;
 
-        return acc[val.artist] + songNo;
+         arr[artistName] = artistSong;
+
+        if(artistName){
+            artistSong += 1;
+        }
+
+        return acc;
         
     }, {})
 }
 //test
-getSongCountByArtist(songs);
+getSongCountByArtist(songs); // {}
