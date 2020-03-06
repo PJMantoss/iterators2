@@ -24,7 +24,7 @@ amount of time (in seconds) it would take to listen to all of the songs.
 function getTotalDurationInSeconds(arr){
     return arr.reduce(function(acc,val){
         let timeSeconds = parseFloat(val.duration);
-        return acc + timeSeconds;
+        return acc + (timeSeconds * 60);
     }, 0)
 }
 
