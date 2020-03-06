@@ -20,3 +20,7 @@ which takes in an array of songs and returns the total
 amount of time (in seconds) it would take to listen to all of the songs.
 (Hint: can you use anything you've written already to help solve this problem?)
 */
+
+function getTotalDurationInSeconds(arr){
+    return arr.reduce(function(acc,val){})
+}
