@@ -37,4 +37,10 @@ returns an object. The keys in the object should be artist names, and
 the values should be the number of songs by that artist in the orignal array.
 */
 
-function getSongCountByArtist(){}
+function getSongCountByArtist(arr){
+    return arr.reduce(function(acc,val){
+        return acc + val.artist;
+    }, [])
+}
+
+getSongCountByArtist(songs);
