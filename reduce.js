@@ -36,3 +36,5 @@ Q3.Write a function called getSongCountByArtist which takes in an array of songs
 returns an object. The keys in the object should be artist names, and 
 the values should be the number of songs by that artist in the orignal array.
 */
+
+function getSongCountByArtist(){}
