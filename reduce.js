@@ -15,7 +15,7 @@ function summerJamCount(arr){
 summerJamCount(songs);
 
 /*
-Q. Write a function called getTotalDurationInSeconds
+Q2. Write a function called getTotalDurationInSeconds
 which takes in an array of songs and returns the total 
 amount of time (in seconds) it would take to listen to all of the songs.
 (Hint: can you use anything you've written already to help solve this problem?)
@@ -30,3 +30,9 @@ function getTotalDurationInSeconds(arr){
 
 //test
 getTotalDurationInSeconds(songs); //40080
+
+/*
+Q3.Write a function called getSongCountByArtist which takes in an array of songs and
+returns an object. The keys in the object should be artist names, and 
+the values should be the number of songs by that artist in the orignal array.
+*/
