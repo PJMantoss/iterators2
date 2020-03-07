@@ -37,23 +37,6 @@ returns an object. The keys in the object should be artist names, and
 the values should be the number of songs by that artist in the orignal array.
 */
 
-function getSongCountByArtist(arr){
-    
-    return arr.reduce(function(acc,val){
-        let artistName = val.artist,
-            artistSong = val.name;
-
-         arr[artistName] = artistSong;
-
-        if(artistName){
-            artistSong += 1;
-        }
-
-        return acc;
-        
-    }, {})
-}
-
 function getSongCountByArtist(arr) {
     return arr.reduce(function (acc, val) {
       if (acc[val.artist] === undefined) acc[val.artist] = 0;
