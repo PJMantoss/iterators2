@@ -53,5 +53,13 @@ function getSongCountByArtist(arr){
         
     }, {})
 }
+
+function getSongCountByArtist(arr) {
+    return arr.reduce(function (acc, val) {
+      if (acc[val.artist] === undefined) acc[val.artist] = 0;
+      acc[val.artist]++;
+      return acc;
+    }, {});
+  } 
 //test
 getSongCountByArtist(songs); // {}
