@@ -63,3 +63,5 @@ function averageWeeksAtNumberOne(arr){
         return acc + average;
     }, [])
 }
+
+averageWeeksAtNumberOne(songs);
