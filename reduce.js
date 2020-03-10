@@ -58,6 +58,8 @@ function averageWeeksAtNumberOne(arr){
         let totalWeeks = acc[val.weeksAtNumberOne]++;
         totalWeeks += val.weeksAtNumberOne;
         let numWeeks = acc[val.weeksAtNumberOne].length;
-        average 
+        let average = totalWeeks / numWeeks;
+
+        return acc + average;
     }, [])
 }
