@@ -55,6 +55,9 @@ which takes in an array of songs and returns the average
 
 function averageWeeksAtNumberOne(arr){
     return arr.reduce((acc, val) => {
-        acc + val.weeksAtNumberOne
+        let totalWeeks = acc[val.weeksAtNumberOne]++;
+        totalWeeks += val.weeksAtNumberOne;
+        let numWeeks = acc[val.weeksAtNumberOne].length;
+        average 
     }, [])
 }
