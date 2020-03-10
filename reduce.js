@@ -57,5 +57,5 @@ function averageWeeksAtNumberOne(arr){
        return acc + val.weeksAtNumberOne / arr.length
     }, 0)
 }
-
-averageWeeksAtNumberOne(songs);
+//test
+averageWeeksAtNumberOne(songs); // 12.276381909547755
