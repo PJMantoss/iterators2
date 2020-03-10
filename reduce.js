@@ -52,20 +52,10 @@ Q4.Write a function called averageWeeksAtNumberOne
 which takes in an array of songs and returns the average
  number of weeks that songs on the list were #1.
 */
-
 function averageWeeksAtNumberOne(arr){
     return arr.reduce((acc, val) => {
-        let totalWeeks = 0;
-        let values = acc[val.weeksAtNumberOne];
-        for (let i in values){
-            totalWeeks += values[i];
-        }
-        
-        let numWeeks = val.weeksAtNumberOne++;
-        
-
-        return totalWeeks / numWeeks;
-    },0)
+       return acc + val.weeksAtNumberOne / arr.length
+    }, 0)
 }
 
 averageWeeksAtNumberOne(songs);
